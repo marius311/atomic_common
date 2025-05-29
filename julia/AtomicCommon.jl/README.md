@@ -18,7 +18,9 @@ To make a release, you need to (in this order):
 
 You can now install the package with:
 ```
-pkg> add https://github.com/marius311/atomic_common@1.0.0:julia/AtomicCommon.jl
+pkg> add https://github.com/marius311/atomic_common#1.0.0:julia/AtomicCommon.jl
 ```
 
-Note, only "released" versions can be installed in this way, not any arbitrary commit. 
+Note:
+* Only "released" versions can be installed in this way, not any arbitrary commit. 
+* Packages installed this way will never auto-update to semver-compatibel versions like packages installed from a registry, they'll always be pinned to exactly 1.0.0. We could fix this by running a local registry (with no other changes to the artifact machinery required).
