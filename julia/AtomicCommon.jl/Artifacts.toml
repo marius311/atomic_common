@@ -1,0 +1,6 @@
+[definitions]
+git-tree-sha1 = "3b6db127f23ac832fbbca512cb2844431d277a3e"
+
+    [[definitions.download]]
+    sha256 = "956309ec2825a766f2a60245e06981d68b6c7d015882dbbce134f0ddb0222562"
+    url = "https://github.com/marius311/atomic_common/releases/download/1.0.0/definitions.tgz"
